@@ -38,18 +38,9 @@ cargo generate --git https://github.com/M-Daley/wasm-game-of-life --name my-proj
 cd my-project
 ```
 
-### 🛠️ Build with `wasm-pack build`
-
+### ⚙️ CD into project & Copy/Paste this command to build & run this project in a new tab
 ```
-wasm-pack build
-```
-
-### ⚙️ Compiling and running the project
-```
-  wasm-pack build
-  cd www
-  npm install
-  npm run start
+  wasm-pack build && cd www && npm install && start firefox localhost:8080 && npm run start
 ```
 
 ### 🔬 Test in Headless Browsers with `wasm-pack test`
