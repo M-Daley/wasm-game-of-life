@@ -33,6 +33,7 @@ Rust-generated WebAssembly and using them to create a Website.
 
 ```
 npm init wasm-app
+npm run start
 ```
 
 ## 🔋 Batteries Included
